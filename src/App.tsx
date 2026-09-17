@@ -1,4 +1,3 @@
-import React from 'react';
 import { LayoutContainer } from './components/layout/LayoutContainer';
 import { NetCard } from './components/account/NetCard';
 import { OverviewCard } from './components/account/OverviewCard';
