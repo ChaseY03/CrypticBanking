@@ -67,7 +67,7 @@ export const SpendingCard: React.FC<SpendingChartCardProps> = ({ transactions })
                         <Tooltip
                             contentStyle={{ backgroundColor: '#0f172a', borderRadius: '12px', border: 'none', color: '#fff' }}
                             itemStyle={{ fontSize: '12px', color: '#fff' }}
-                            formatter={(value: number | string | undefined) => [
+                            formatter={(value) => [
                                 `£${Number(value ?? 0).toFixed(2)}`,
                                 ''
                             ]}
